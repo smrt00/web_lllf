@@ -66,6 +66,9 @@ server.get(/^\/recursos/, (req, res) => {
   res.render(`${req.lang}/recursos.html`);
 });
 
+server.get(/^\/plantilla-proyecto/, (req, res) => {
+  res.render(`${req.lang}/plantilla-proyecto.html`);
+});
 
 server.listen(PORT, () => {
 	console.log(`🚀 Server ejecutandose en el puerto ${PORT}`)

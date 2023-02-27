@@ -377,3 +377,11 @@
   position: relative;
   width: 1440px;
 }
+
+.negrita {
+  font-weight: bold;
+}
+
+.my-list {
+  list-style-type: disc;
+}
