@@ -70,6 +70,14 @@ server.get(/^\/plantilla-proyecto/, (req, res) => {
   res.render(`${req.lang}/plantilla-proyecto.html`);
 });
 
+server.get(/^\/actualidad/, (req, res) => {
+  res.render(`${req.lang}/actualidad.html`);
+});
+
+server.get(/^\/publicaciones/, (req, res) => {
+  res.render(`${req.lang}/publicaciones.html`);
+});
+
 server.listen(PORT, () => {
 	console.log(`🚀 Server ejecutandose en el puerto ${PORT}`)
 });
