@@ -6,7 +6,7 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 6911px;
+  height: 7660px;
   overflow: hidden;
   width: 1440px;
 }
@@ -133,8 +133,8 @@
   align-items: flex-start;
   align-self: flex-start;
   display: flex;
-  height: 996px;
-  margin-top: 186px;
+  height: 966px;
+  margin-top: 250px;
   min-width: 1464px;
 }
 
@@ -162,7 +162,7 @@
   align-items: flex-end;
   display: flex;
   gap: 43px;
-  height: 686px;
+  height: 750px;
   min-width: 1017px;
 }
 
@@ -184,7 +184,7 @@
   color: var(--primary-color);
   font-weight: 400;
   line-height: normal;
-  margin-top: 67px;
+  margin-top: 75px;
   width: 439px;
 }
 
@@ -278,8 +278,8 @@
   flex-direction: column;
   gap: 69px;
   margin-left: 64.0px;
-  margin-top: 186px;
-  min-height: 2089px;
+  margin-top: 160px;
+  min-height: 2500px;
   width: 1250px;
 }
 
@@ -288,7 +288,6 @@
   display: flex;
   flex-direction: column;
   gap: 22px;
-  margin-left: 37px;
   min-height: 77px;
   width: 634px;
 }
@@ -308,7 +307,7 @@
 .antecedentes .ficha_tesis_finalizadas {
   background-color: var(--primary-color);
   box-shadow: 2px 4px 8px 2px #1975ba40;
-  height: 434px;
+  height: 515px;
   justify-content: flex-end;
   min-width: 384px;
   padding: 38px 22px;
@@ -334,7 +333,7 @@
   flex-direction: column;
   gap: 22px;
   margin-left: 79.0px;
-  margin-top: 152px;
+  margin-top: 620px;
   min-height: 592px;
   width: 1265px;
 }
@@ -419,7 +418,7 @@
   flex-direction: row;
   flex-shrink: 1;
   justify-content: flex-start;
-  margin-top: 244px;
+  margin-top: 100px;
   min-width: 1440px;
   width: auto;
 }

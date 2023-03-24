@@ -6,7 +6,7 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 1587px;
+  height: px;
   overflow: hidden;
   width: 1440px;
 }
@@ -114,7 +114,7 @@
   flex-direction: row;
   flex-shrink: 1;
   justify-content: flex-start;
-  margin-top: 178px;
+  margin-top: 420px;
   min-width: 1440px;
   width: auto;
 }
