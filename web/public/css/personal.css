@@ -6,7 +6,7 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 3350px;
+  height: 3480px;
   overflow: hidden;
   width: 1440px;
 }
@@ -85,8 +85,8 @@
 .personal .ellipse-container {
   align-items: flex-start;
   display: flex;
-  margin-left: 62.0px;
-  margin-top: 43px;
+  margin-left: 505.0px;
+  margin-top: 80px;
   min-width: 1097px;
 }
 
@@ -135,6 +135,8 @@
   font-weight: 400;
   line-height: normal;
   min-height: 68px;
+  margin-left: 225px;
+  margin-top: 35px;
   text-align: center;
   width: 392px;
 }
@@ -152,8 +154,9 @@
   color: var(--primary-color);
   font-weight: 400;
   line-height: normal;
-  margin-left: 99px;
+  margin-left: 90px;
   min-height: 79px;
+  margin-top: 35px;
   text-align: center;
   width: 328px;
 }
@@ -180,6 +183,7 @@
   font-weight: 700;
   line-height: normal;
   margin-right: 21.0px;
+  margin-top: 15px;
   min-height: 28px;
   min-width: 150px;
   text-align: center;
@@ -215,9 +219,9 @@
   color: var(--primary-color);
   cursor: pointer;
   font-weight: 700;
-  margin-right: 1.0px;
+  margin-right: 10px;
   min-height: 23px;
-  min-width: 106px;
+  min-width: 150px;
 }
 
 .personal .group-2 {
@@ -227,14 +231,14 @@
   gap: 23px;
   margin-left: 64px;
   min-height: 173px;
-  width: 200px;
+  width: 220px;
 }
 
 .personal .ellipse-6 {
   background-color: var(--primary-color);
   border-radius: 63.5px;
   height: 127px;
-  margin-right: 1.0px;
+  margin-right: 5px;
   width: 127px;
 }
 
@@ -243,9 +247,10 @@
   cursor: pointer;
   font-weight: 700;
   line-height: normal;
-  margin-right: 2.0px;
+  margin-right: 10px;
   min-height: 23px;
-  min-width: 198px;
+  min-width: 150px;
+  width:150px;
   text-align: center;
 }
 
@@ -263,7 +268,7 @@
   color: var(--primary-color);
   cursor: pointer;
   font-weight: 700;
-  margin-left: 4px;
+  margin-left: 0px;
   min-height: 23px;
   min-width: 118px;
 }
@@ -283,7 +288,7 @@
   cursor: pointer;
   font-weight: 700;
   line-height: normal;
-  margin-left: 2px;
+  margin-left: 0px;
   min-height: 46px;
   min-width: 123px;
   text-align: center;
@@ -292,7 +297,7 @@
 .personal .overlap-group2 {
   height: 903px;
   margin-right: 5.0px;
-  margin-top: 146px;
+  margin-top: 200px;
   position: relative;
   width: 1444px;
 }
@@ -338,7 +343,7 @@
 
 .personal .rectangle-1 {
   background-color: var(--navy-blue-2);
-  height: 903px;
+  height: 970px;
   left: 0;
   position: absolute;
   top: 0;
@@ -349,8 +354,9 @@
   align-items: flex-start;
   background-color: var(--primary-color);
   display: flex;
-  height: 1109px;
+  height: 780px;
   margin-left: 5.0px;
+  margin-top: 70px;
   min-width: 1444px;
   padding: 74px 191px;
 }
@@ -363,6 +369,7 @@
   margin-bottom: 255.0px;
   min-height: 414px;
   min-width: 212px;
+  margin-top: 380px;
   text-align: center;
 }
 
@@ -390,6 +397,7 @@
   margin-right: 2.0px;
   min-height: 38px;
   min-width: 332px;
+  margin-top: 600px;
   text-align: center;
 }
 
@@ -422,7 +430,7 @@
   margin-left: 41px;
   margin-top: 146px;
   min-height: 345px;
-  min-width: 211px;
+  min-width: 250px;
 }
 
 .personal .footer {
