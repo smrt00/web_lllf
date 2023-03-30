@@ -79,7 +79,7 @@
   color: var(--primary-color);
   font-weight: 400;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: -20.00px;
   width: 551px;
 }
 
@@ -87,7 +87,7 @@
   color: var(--primary-color);
   font-weight: 400;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: -20.00px;
   width: 545px;
 }
 
@@ -95,17 +95,17 @@
   background-image: url(../img/iic-logo-1.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 376px;
-  left: 654px;
+  height: 400px;
+  left: 610px;
   position: absolute;
-  top: 10px;
+  top: 30px;
   width: 545px;
 }
 
 .plantilla-proyecto .section_equipo {
   align-items: flex-start;
   display: flex;
-  margin-top: 143px;
+  margin-top: 220px;
   min-width: 1440px;
 }
 
@@ -119,11 +119,12 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 20px;
   left: 115px;
   position: absolute;
   top: 66px;
   width: fit-content;
+  margin-top: 50px;
 }
 
 .plantilla-proyecto .h1-3 {
@@ -161,7 +162,7 @@
   color: var(--primary-color);
   font-weight: 400;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: 40.00px;
   width: 555px;
 }
 
@@ -178,17 +179,18 @@
   color: var(--primary-color);
   font-weight: 400;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: 40.00px;
   width: 545px;
 }
 
 .plantilla-proyecto .div_fondo_lineas {
   background-color: var(--navy-blue-3);
-  height: 783px;
+  height: 860px;
   left: 0;
   position: absolute;
   top: 0;
   width: 1440px;
+  margin-top: 45px;
 }
 
 .plantilla-proyecto .section_resultados {
@@ -196,7 +198,7 @@
   display: flex;
   flex-direction: column;
   gap: 64px;
-  margin-top: 148px;
+  margin-top: 180px;
   min-height: 1866px;
   width: 1194px;
 }
@@ -207,6 +209,7 @@
   flex-direction: column;
   gap: 35px;
   width: fit-content;
+  margin-top: 50px;
 }
 
 .plantilla-proyecto .h1-5 {
@@ -243,7 +246,7 @@
 .plantilla-proyecto .section_publicaciones {
   align-items: flex-start;
   display: flex;
-  margin-top: 122px;
+  margin-top: 90px;
   min-width: 1440px;
 }
 
@@ -261,7 +264,7 @@
   height: 56px;
   left: 127px;
   position: absolute;
-  top: 46px;
+  top: 100px;
   width: fit-content;
 }
 
@@ -269,7 +272,7 @@
   color: var(--primary-color);
   font-weight: 700;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: 140.00px;
   width: 593px;
 }
 
@@ -281,11 +284,12 @@
 
 .plantilla-proyecto .div_fondo_lineas-1 {
   background-color: var(--navy-blue-3);
-  height: 746px;
+  height: 700px;
   left: 0;
   position: absolute;
   top: 0;
   width: 1440px;
+  margin-top: 160px;
 }
 
 .plantilla-proyecto .texto_publicaciones {
@@ -297,6 +301,7 @@
   position: absolute;
   top: 141px;
   width: 1194px;
+  margin-top: 240px;
 }
 
 .plantilla-proyecto .moreno-sandoval-a {
@@ -325,13 +330,14 @@
   margin-left: 131px;
   margin-top: 164px;
   width: fit-content;
+  height: 100px;
 }
 
 .plantilla-proyecto .h1-9 {
   color: var(--primary-color);
   font-weight: 700;
   line-height: normal;
-  margin-top: -1.00px;
+  margin-top: 20.00px;
   width: 593px;
 }
 

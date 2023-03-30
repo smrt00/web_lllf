@@ -79,7 +79,7 @@
 
 .texto_footer {
   color: var(--primary-color);
-  font-weight: 400;
+  font-weight: 700;
   left: 56px;
   line-height: normal;
   position: absolute;
@@ -88,30 +88,30 @@
 }
 
 .img_catedra {
-  height: 52px;
-  left: 804px;
+  height: 100px;
+  left: 620px;
   object-fit: cover;
   position: absolute;
-  top: 76px;
-  width: 127px;
+  top: 49px;
+  width: 220px;
 }
 
 .img_icc {
-  height: 51px;
-  left: 968px;
+  height: 80px;
+  left: 847px;
   object-fit: cover;
   position: absolute;
-  top: 76px;
-  width: 115px;
+  top: 60px;
+  width: 185px;
 }
 
 .img_logos_institucionales {
-  height: 56px;
-  left: 1121px;
+  height: 85px;
+  left: 1045px;
   object-fit: cover;
   position: absolute;
-  top: 74px;
-  width: 255px;
+  top: 65px;
+  width: 380px;
 }
 
 .div_blanco {
