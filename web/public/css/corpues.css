@@ -6,7 +6,7 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 6504px;
+  height: 4500px;
   overflow: hidden;
   width: 1440px;
 }
@@ -182,7 +182,7 @@
   gap: 72px;
   height: 3223px;
   margin-left: 32.0px;
-  margin-top: 251px;
+  margin-top: 100px;
   min-width: 1208px;
 }
 
@@ -262,9 +262,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  min-height: 318px;
+  min-height: 340px;
   padding: 42.6px 29.0px;
-  width: 340px;
+  width: 570px;
 }
 
 .corpues .h1-5 {
@@ -273,7 +273,7 @@
   flex-direction: column;
   gap: 5px;
   min-height: 51px;
-  width: 157px;
+  width: 500px;
 }
 
 .corpues .texto_ficha_recursos {
@@ -413,7 +413,7 @@
   flex-direction: row;
   flex-shrink: 1;
   justify-content: flex-start;
-  margin-top: 275px;
+  margin-top: 625px;
   min-width: 1440px;
   width: auto;
 }
@@ -437,6 +437,7 @@
   justify-content: center;
   margin-bottom: -1.00px;
   margin-top: -1.00px;
+  width: 8vw;
 }
 
 .corpues .content-2 {
@@ -469,5 +470,5 @@
   color: var(--white);
   font-weight: 400;
   line-height: normal;
-  width: 254px;
+  width: 520px;
 }
