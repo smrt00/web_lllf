@@ -86,8 +86,8 @@ server.get(/^\/plantilla-publicaciones/, (req, res) => {
   res.render(`${req.lang}/plantilla-publicaciones.html`);
 });
 
-server.get(/^\/publicaciones-2022/, (req, res) => {
-  res.render(`${req.lang}/publicaciones-2022.html`);
+server.get(/^\/2022-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2022-publicaciones.html`);
 });
 
 server.listen(PORT, () => {
