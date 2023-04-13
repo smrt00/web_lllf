@@ -98,6 +98,18 @@
   width: 354px;
 }
 
+.home .div-blanco-herramientas {
+  height: 320px;
+  position: relative;
+  width: 500px;
+}
+
+.home .img-herramientas {
+  height: 300px;
+  position: relative;
+  width: 500px;
+}
+
 .home .div_azul {
   background-color: var(--primary-color);
   box-shadow: 2px 4px 8px 2px #1975ba40;
