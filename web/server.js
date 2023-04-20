@@ -90,6 +90,38 @@ server.get(/^\/2022-publicaciones/, (req, res) => {
   res.render(`${req.lang}/2022-publicaciones.html`);
 });
 
+server.get(/^\/2021-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2022-publicaciones.html`);
+});
+
+server.get(/^\/2020-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2022-publicaciones.html`);
+});
+
+server.get(/^\/2019-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2022-publicaciones.html`);
+});
+
+server.get(/^\/2018-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2022-publicaciones.html`);
+});
+
+server.get(/^\/2017-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2022-publicaciones.html`);
+});
+
+server.get(/^\/2017-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2022-publicaciones.html`);
+});
+
+server.get(/^\/2016-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2022-publicaciones.html`);
+});
+
+server.get(/^\/2015-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2022-publicaciones.html`);
+});
+
 server.listen(PORT, () => {
 	console.log(`🚀 Server ejecutandose en el puerto ${PORT}`)
 });

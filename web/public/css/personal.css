@@ -305,6 +305,16 @@
   text-align: center;
 }
 
+.personal .formacion {
+  color: var(--primary-color);
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 0px;
+  min-height: 46px;
+  max-width: 130px;
+  text-align: center;
+}
+
 .personal .overlap-group2 {
   height: 903px;
   margin-right: 5.0px;

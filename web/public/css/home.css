@@ -27,14 +27,23 @@
   display: flex;
   flex-direction: column;
   margin-left: 15.0px;
-  margin-top: 132px;
+  margin-top: 80px;
   min-height: 597px;
   width: 1281px;
 }
 
+.home .logo_lii {
+  height: 100px;
+  margin-right: 2px;
+  object-fit: cover;
+  width: 1200px;
+  align-self: center;
+}
+
 .home .mapa_lenguas_mundo {
   height: 578px;
-  margin-right: 2px;
+  margin-left: 10px;
+  margin-top: 80px;
   object-fit: cover;
   width: 1279px;
 }
