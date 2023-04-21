@@ -91,35 +91,31 @@ server.get(/^\/2022-publicaciones/, (req, res) => {
 });
 
 server.get(/^\/2021-publicaciones/, (req, res) => {
-  res.render(`${req.lang}/2022-publicaciones.html`);
+  res.render(`${req.lang}/2021-publicaciones.html`);
 });
 
 server.get(/^\/2020-publicaciones/, (req, res) => {
-  res.render(`${req.lang}/2022-publicaciones.html`);
+  res.render(`${req.lang}/2020-publicaciones.html`);
 });
 
 server.get(/^\/2019-publicaciones/, (req, res) => {
-  res.render(`${req.lang}/2022-publicaciones.html`);
+  res.render(`${req.lang}/2019-publicaciones.html`);
 });
 
 server.get(/^\/2018-publicaciones/, (req, res) => {
-  res.render(`${req.lang}/2022-publicaciones.html`);
+  res.render(`${req.lang}/2018-publicaciones.html`);
 });
 
 server.get(/^\/2017-publicaciones/, (req, res) => {
-  res.render(`${req.lang}/2022-publicaciones.html`);
-});
-
-server.get(/^\/2017-publicaciones/, (req, res) => {
-  res.render(`${req.lang}/2022-publicaciones.html`);
+  res.render(`${req.lang}/2017-publicaciones.html`);
 });
 
 server.get(/^\/2016-publicaciones/, (req, res) => {
-  res.render(`${req.lang}/2022-publicaciones.html`);
+  res.render(`${req.lang}/2016-publicaciones.html`);
 });
 
 server.get(/^\/2015-publicaciones/, (req, res) => {
-  res.render(`${req.lang}/2022-publicaciones.html`);
+  res.render(`${req.lang}/2015-publicaciones.html`);
 });
 
 server.listen(PORT, () => {
