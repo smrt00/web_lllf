@@ -107,6 +107,18 @@
   width: 545px;
 }
 
+.plantilla-publicaciones .sin-columna {
+  color: var(--primary-color);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 1440px;
+}
+
 .plantilla-publicaciones .negrita {
   font-weight: bold;
 }

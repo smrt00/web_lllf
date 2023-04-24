@@ -6,7 +6,7 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 2243px;
+  height: 2680px;
   overflow: hidden;
   width: 1440px;
 }
@@ -51,7 +51,7 @@
 }
 
 .actualidad .overlap-group2 {
-  height: 1873px;
+  height: 2300px;
   position: relative;
   width: 1442px;
 }
@@ -77,22 +77,26 @@
 
 .actualidad .section_actualidad {
   background-color: var(--navy-blue-3);
-  height: 1873px;
+  height: 2300px;
   left: 0;
   position: absolute;
   top: 0;
   width: 1442px;
 }
 
-.actualidad .rectangle-3 {
+.actualidad .rectangle-2 {
   top: 274px;
 }
 
-.actualidad .rectangle-4 {
+.actualidad .rectangle-3 {
   top: 756px;
 }
 
-.actualidad .curso-intensivo-de-a {
+.actualidad .rectangle-4 {
+  top: 1245px;
+}
+
+.actualidad .curso-intensivo-1 {
   color: var(--white);
   font-weight: 700;
   left: 664px;
@@ -102,20 +106,40 @@
   width: 590px;
 }
 
+.actualidad .subtitulo {
+  color: var(--white);
+  font-weight: 700;
+  left: 664px;
+  line-height: normal;
+  position: absolute;
+  top: 530px;
+  width: 590px;
+}
+
+.actualidad .curso-intensivo-2 {
+  color: var(--white);
+  font-weight: 700;
+  left: 664px;
+  line-height: normal;
+  position: absolute;
+  top: 800px;
+  width: 590px;
+}
+
 .actualidad .fecha-inicio-3105 {
   color: var(--white);
   font-weight: 700;
   left: 664px;
   line-height: normal;
   position: absolute;
-  top: 492px;
+  top: 990px;
   width: 590px;
 }
 
 .actualidad .image-1 {
-  height: 381px;
+  height: 383px;
   left: 114px;
-  top: 276px;
+  top: 274px;
   width: 488px;
 }
 
@@ -125,7 +149,7 @@
   left: 664px;
   line-height: normal;
   position: absolute;
-  top: 804px;
+  top: 1300px;
   width: 590px;
 }
 
@@ -143,7 +167,7 @@
 .actualidad .linea-1 {
   left: 664px;
   position: absolute;
-  top: 459px;
+  top: 500px;
 }
 
 .actualidad .linea-2 {
@@ -153,7 +177,7 @@
 }
 
 .actualidad .rectangle-5 {
-  top: 1245px;
+  top: 1730px;
 }
 
 .actualidad .annotating-discourse {
@@ -162,12 +186,16 @@
   left: 664px;
   line-height: normal;
   position: absolute;
-  top: 1293px;
+  top: 1780px;
   width: 608px;
 }
 
 .actualidad .address-1 {
   top: 1498px;
+}
+
+.actualidad .address-3 {
+  top: 2000px;
 }
 
 .actualidad .image-4 {
@@ -180,7 +208,13 @@
 .actualidad .linea-3 {
   left: 664px;
   position: absolute;
-  top: 1463px;
+  top: 1450px;
+}
+
+.actualidad .linea-5 {
+  left: 664px;
+  position: absolute;
+  top: 1960px;
 }
 
 .actualidad .botn {
@@ -199,7 +233,7 @@
 .actualidad .image-5 {
   height: 383px;
   left: 105px;
-  top: 1245px;
+  top: 1730px;
   width: 499px;
 }
 

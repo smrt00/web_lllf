@@ -118,6 +118,10 @@ server.get(/^\/2015-publicaciones/, (req, res) => {
   res.render(`${req.lang}/2015-publicaciones.html`);
 });
 
+server.get(/^\/2014-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2014-publicaciones.html`);
+});
+
 server.listen(PORT, () => {
 	console.log(`🚀 Server ejecutandose en el puerto ${PORT}`)
 });
