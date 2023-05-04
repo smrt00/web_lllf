@@ -224,8 +224,8 @@
 }
 
 .publicaciones .overlap-group23 {
-  min-width: 863px;
-  padding: 0 181px;
+  max-width: 560px;
+  padding: 0 90px;
 }
 
 .publicaciones .aos-anteriores-a-2001 {
@@ -233,7 +233,7 @@
   font-weight: 700;
   line-height: normal;
   min-height: 45px;
-  width: 501px;
+  min-width: 500px;
 }
 
 .publicaciones .footer {
