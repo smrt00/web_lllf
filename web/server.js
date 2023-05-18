@@ -70,6 +70,10 @@ server.get(/^\/plantilla-proyecto/, (req, res) => {
   res.render(`${req.lang}/plantilla-proyecto.html`);
 });
 
+server.get(/^\/FINT-ESP/, (req, res) => {
+  res.render(`${req.lang}/FINT-ESP.html`);
+});
+
 server.get(/^\/actualidad/, (req, res) => {
   res.render(`${req.lang}/actualidad.html`);
 });
@@ -84,6 +88,10 @@ server.get(/^\/publicaciones/, (req, res) => {
 
 server.get(/^\/plantilla-publicaciones/, (req, res) => {
   res.render(`${req.lang}/plantilla-publicaciones.html`);
+});
+
+server.get(/^\/2023-publicaciones/, (req, res) => {
+  res.render(`${req.lang}/2023-publicaciones.html`);
 });
 
 server.get(/^\/2022-publicaciones/, (req, res) => {
