@@ -8,6 +8,8 @@
   flex-direction: column;
   overflow: hidden;
   width: 1440px;
+  min-height: 100%;
+  position: relative;
 }
 
 .plantilla-publicaciones .header {
@@ -78,8 +80,10 @@
   display: flex;
   justify-content: space-between;
   margin-top: 57px;
+  margin-bottom: 100px;
   position: relative;
   width: 1194px;
+  padding-bottom: 10%;
 }
 
 .plantilla-publicaciones .columna-1 {
@@ -133,8 +137,24 @@
   flex-direction: row;
   flex-shrink: 1;
   justify-content: flex-start;
-  margin-top: 420px;
+  margin-top: 240px;
   min-width: 1440px;
+  position: relative;
+  bottom: 0px;
+  width: auto;
+}
+
+.plantilla-publicaciones .footer-largo {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  justify-content: flex-start;
+  margin-top: 100px;
+  min-width: 1440px;
+  position: relative;
+  bottom: 0px;
   width: auto;
 }
 
