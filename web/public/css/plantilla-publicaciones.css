@@ -130,6 +130,10 @@
   font-style: italic; 
 }
 
+.plantilla-publicaciones .margen {
+  margin-left: 20px;
+}
+
 .plantilla-publicaciones .footer {
   align-items: flex-start;
   background-color: transparent;

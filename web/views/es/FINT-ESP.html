@@ -103,66 +103,94 @@
                     Jordi Porta, Informática, UAM<br /><br />
                     Helena Montoro, Cátedra UAM-IIC<br /><br />
                     Blanca Carbajo, Cátedra UAM-IIC<br /><br />
-                    Ana García Toro, Cátedra UAM-IIC</span
-                  >
+                    Ana García Toro, Cátedra UAM-IIC</span>
                 </p>
               </div>
             </div>
             <div class="div_fondo_lineas"></div>
           </div>
         </div>
-        <div class="section_resultados">
+        <div class="section_fase_1">
           <div class="h1-4">
-            <div class="h1-5 titulosh2">RESULTADOS</div>
+            <div class="h1-5 titulosh2">FASES DEL PROYECTO</div>
             <img class="linea" src="img/line-3.svg" alt="" />
           </div>
           <div class="texto_resultados textoscorrido">
             <span class="fases-del-proyecto-f">
-              <span class="span enlace">Fases del proyecto<br /><br/></span
-                >
-              <span class="negrita">Fase 1: creación del corpus FinT-esp</span><br /><br />
+              <span class="span enlace">Fase 1: creación del corpus FinT-esp<br /><br/></span>
               Primero se llevó a cabo el proceso de compilación:<br /><br />
-              Descarga de más de 500 informes de las páginas web de las empresas del IBEX, de manera manual.<br />
-              Adaptación de los informes españoles a la herramienta CFIE (desarrollado por El-Haj et al.) utilizando índices con palabras clave que permiten detectar la estructura de los documentos. Debido a su variabilidad, solo 388 informes pudieron ser convertidos a txt.<br /><br />
-              Limpieza de los textos convertidos: se realizaron scripts en Python para limpiar, normalizar y extraer las secciones, ya que no funcionaron los de CFIE.<br /><br />
-              Transcripción a mano de las secciones &#34;Cartas a los inversores&#34; de los textos no convertidos para obtener una muestra completa y representativa.<br /><br />
-              Terminado el proceso se obtuvieron dos corpus:<br /><br />
-              <span class="negrita">Informes anuales:</span> compuesto por 388 documentos, 23 millones de palabras y 2 millones de oraciones.<br />
-              Dado que es un conjunto de textos actualizado (textos de 2014 a 2017) y escrito por y para especialistas, contiene la jerga propia de los expertos financieros y es apropiado para la extracción terminológica y conceptual.<br /><br />
-              <span class="negrita">Cartas de los CEOs a los accionistas:</span> 397 documentos, 500&nbsp;000 palabras y 16&nbsp;800 oraciones.<br />Es un corpus preparado para ser procesado con un pipeline de PLN (taggers, parsers, NER). Además, se ha utilizado para el análisis lingüístico y el entrenamiento automático del discurso financiero.<br /><br />
-              <span class="negrita">Fase 2: Herramientas desarrolladas</span><br /><br />
-              La primera tarea puramente informática consistió en la integración o adaptación de las herramientas desarrolladas previamente por los equipos de la UAM y Lancaster:<br /><br />
-              Adaptación del CFIE a los informes financieros en español, con resultados parciales debido a la diferencia entre las estructuras narrativas de Reino Unido y España.<br /><br />
-              Integración de Grampal (LLI-UAM) en la herramienta WMatrix (Lancaster). También se ha comenzado con la adaptación de una nueva versión de Grampal dentro del entorno Stanza (Stanford).<br /><br />
-              Integración de Grampal en USAS (Lancaster), el etiquetador semántico del equipo UCREL. Se ha creado un lexicón semántico específico para el dominio financiero en español.<br /><br />
-              En segundo lugar, los informáticos del proyecto, Guirao y Jiménez, han desarrollado dos herramientas:<br /><br />
-              Un sistema de consulta a los dos corpus FinT-esp (<a href="http://leptis.lllf.uam.es/financiero/consulta">http://leptis.lllf.uam.es/financiero/consulta</a>). Está inspirado en la versión de MultiMedica y permite, además de la consulta independiente a los dos corpus, la búsqueda por términos financieros seleccionados y un prototipo de extractor automático de términos financieros.<br /><br />
-              WikiCorporaComposer (<a href="http://akira.lllf.uam.es:9090">http://akira.lllf.uam.es:9090</a>), herramienta inspirada en el programa BooTCat de Marco Baroni. Sirve para crear un corpus ad-hoc para un tema o propósito específico (traducción, lexicografía, terminología) a partir de artículos de la Wikipedia en español y en inglés.
+              • Descarga de más de 500 informes de las páginas web de las empresas del IBEX, de manera manual.<br /><br />
+              • Adaptación de los informes españoles a la herramienta CFIE (desarrollado por El-Haj et al.) utilizando índices con palabras clave que permiten detectar la estructura de los documentos. Debido a su variabilidad, solo 388 informes pudieron ser convertidos a txt.<br /><br />
+              • Limpieza de los textos convertidos: se realizaron scripts en Python para limpiar, normalizar y extraer las secciones, ya que no funcionaron los de CFIE.<br /><br />
+              • Transcripción a mano de las secciones &#34;Cartas a los inversores&#34; de los textos no convertidos para obtener una muestra completa y representativa.<br /><br />
             </span>
             <p class="fase-3-estudios-lin">
-              <span class="negrita">Fase 3: Estudios lingüísticos</span><br /><br />
-              El equipo cuenta con expertos en finanzas (Ana Gisbert) y en traducción especializada en el dominio financiero (Chelo Vargas). Por ello, uno de los objetivos era aprovechar el corpus y las herramientas para realizar estudios de amplia base, con metodología de Lingüística de Corpus. <br /><br />
-              Los trabajos se centran en cuatro temas:<br /><br />
-              Posibilidad y necesidad en narrativa financiera, mediante el uso de adverbios en -mente<br /><br />
-              El uso de metáforas en los informes financieros<br /><br />
-              La extracción de neologismos y nuevos términos financieros a partir del corpus<br /><br />
-              El uso de los marcadores discursivos en la argumentación de las Cartas a los accionistas<br /><br />
-              <span class="negrita">Fase 4: Experimentos con técnicas de aprendizaje automático</span><br /><br />
-              Se han aplicado diferentes técnicas de PLN a FinT-esp:<br /><br />
-              Análisis de opinión en las Cartas a los accionistas<br /><br />
-              Anotación semántica con USAS al dominio financiero en español<br /><br />
-              Clasificación automática de empresas con ganancias y pérdidas a partir de sus informes<br /><br />
-              Extractor automático de términos financieros<br /><br />
-              Reconocedor automático de Marcadores Discursivos<br /><br />
-              Para las dos primeras tareas se ha adoptado una estrategia clásica basada en léxico y reglas. Para las otras tres tareas se han aplicado técnicas de aprendizaje automático a partir de una anotación manual.<br /><br />
-              <span class="negrita">Resultados de los experimentos:</span><br /><br />
-              Procesar semánticamente las Cartas de los presidentes a los accionistas es una tarea compleja y difícil, tanto para los expertos humanos como para los sistemas de Inteligencia Artificial por los motivos siguientes:<br /><br />
-              Hay muchos menos ejemplos de empresas con pérdidas que con ganancias (distribución 15 / 85).<br /><br />
-              Los discursos de las empresas con pérdidas son muy parecidos a los de las empresas con ganancias, ya que los directivos saben cómo enmascarar las malas noticias para que nos les afecte a la credibilidad y solvencia de las empresas que dirigen.<br /><br />
-              Los extractores automáticos de términos y marcadores discursivos funcionan con un nivel muy alto de acierto, empleando técnicas de aprendizaje automático supervisado. A partir de la anotación manual por lingüistas de estas unidades, usamos redes neuronales profundas basadas en Transformers que nos dan unos resultados preliminares superiores al 90% de acierto. Esto nos ha permitido tener un prototipo de reconocimiento (similar a un NER) para el dominio financiero, que explotaremos en el siguiente proyecto.
+              <br /><br /><br />Terminado el proceso se obtuvieron dos corpus:<br /><br />
+              <span class="negrita">• Informes anuales:</span> compuesto por 388 documentos, 23 millones de palabras y 2 millones de oraciones.<br />
+              Dado que es un conjunto de textos actualizado (textos de 2014 a 2017) y escrito por y para especialistas, contiene la jerga propia de los expertos financieros y es apropiado para la extracción terminológica y conceptual.<br /><br />
+              <span class="negrita">• Cartas de los CEOs a los accionistas:</span> 397 documentos, 500&nbsp;000 palabras y 16&nbsp;800 oraciones.<br />Es un corpus preparado para ser procesado con un pipeline de PLN (taggers, parsers, NER). Además, se ha utilizado para el análisis lingüístico y el entrenamiento automático del discurso financiero.<br /><br />
             </p>
           </div>
         </div>
+        <div class="fondo_fases">
+          <div class="section_fase_2">
+              <div class="texto_resultados textoscorrido">
+                <span class="fases-del-proyecto-f">
+                  <span class="span enlace">Fase 2: Herramientas desarrolladas<br /><br/></span>
+                 La primera tarea puramente informática consistió en la integración o adaptación de las herramientas desarrolladas previamente por los equipos de la UAM y Lancaster:<br /><br />
+                 • Adaptación del CFIE a los informes financieros en español, con resultados parciales debido a la diferencia entre las estructuras      narrativas de Reino Unido y España.<br /><br />
+                 • Integración de Grampal (LLI-UAM) en la herramienta WMatrix (Lancaster). También se ha comenzado con la adaptación de una nueva versión de Grampal dentro del entorno Stanza (Stanford).<br /><br />
+                  • Integración de Grampal en USAS (Lancaster), el etiquetador semántico del equipo UCREL. Se ha creado un lexicón semántico específico para el dominio financiero en español.<br /><br />
+                 </span>
+                 <p class="fase-3-estudios-lin">
+                  <br /><br /><br />En segundo lugar, los informáticos del proyecto, Guirao y Jiménez, han desarrollado dos herramientas:<br /><br />
+                   • Un sistema de consulta a los dos corpus <a href="http://leptis.lllf.uam.es/financiero/consulta">FinT-esp</a>. Está inspirado en la versión de MultiMedica y permite, además de la consulta independiente a los dos corpus, la búsqueda por términos financieros seleccionados y un prototipo de extractor automático de términos financieros.<br /><br />
+                   • <a href="http://akira.lllf.uam.es:9090">WikiCorporaComposer</a>, herramienta inspirada en el programa BooTCat de Marco Baroni. Sirve para crear un corpus ad-hoc para un tema o propósito específico (traducción, lexicografía, terminología) a partir de artículos de la Wikipedia en español y en inglés.
+                 </p>
+              </div>
+            </div>
+        </div>
+        <div class="section_fases_3_4">
+          <div class="texto_resultados textoscorrido">
+            <span class="fases-del-proyecto-f">
+              <span class="span enlace">Fase 3: Estudios lingüísticos</span><br /><br />
+              El equipo cuenta con expertos en finanzas (Ana Gisbert) y en traducción especializada en el dominio financiero (Chelo Vargas). Por ello, uno de los objetivos era aprovechar el corpus y las herramientas para realizar estudios de amplia base, con metodología de Lingüística de Corpus. <br /><br />
+              Los trabajos se centran en cuatro temas:<br /><br />
+              • Posibilidad y necesidad en narrativa financiera, mediante el uso de adverbios en -mente<br /><br />
+              • El uso de metáforas en los informes financieros<br /><br />
+              • La extracción de neologismos y nuevos términos financieros a partir del corpus<br /><br />
+              • El uso de los marcadores discursivos en la argumentación de las Cartas a los accionistas<br /><br />
+            </span>
+            <p class="fase-3-estudios-lin">
+              <span class="span enlace">Fase 4: Experimentos con técnicas de aprendizaje automático</span><br /><br />
+              Se han aplicado diferentes técnicas de PLN a FinT-esp:<br /><br />
+              • Análisis de opinión en las Cartas a los accionistas<br /><br />
+              • Anotación semántica con USAS al dominio financiero en español<br /><br />
+              • Clasificación automática de empresas con ganancias y pérdidas a partir de sus informes<br /><br />
+              • Extractor automático de términos financieros<br /><br />
+              • Reconocedor automático de Marcadores Discursivos<br /><br />
+              Para las dos primeras tareas se ha adoptado una estrategia clásica basada en léxico y reglas. Para las otras tres tareas se han aplicado técnicas de aprendizaje automático a partir de una anotación manual.<br /><br />
+            </p>
+          </div>
+        </div>
+        <div class="fondo_resultados">
+        <div class="section_resultados">
+          <div class="h1-4">
+            <div class="h1-5 titulosh2"><font color="#ffffff">RESULTADOS</div>
+            <img class="linea" src="img/linea-22.svg" alt="" />
+          </div>
+          <div class="texto_resultados textoscorrido">
+            <span class="fases-del-proyecto-f">
+              <font color="#ffffff">Procesar semánticamente las Cartas de los presidentes a los accionistas es una tarea compleja y difícil, tanto para los expertos humanos como para los sistemas de Inteligencia Artificial por los motivos siguientes:<br /><br />
+              Hay muchos menos ejemplos de empresas con pérdidas que con ganancias (distribución 15 / 85).<br /><br />
+              Los discursos de las empresas con pérdidas son muy parecidos a los de las empresas con ganancias, ya que los directivos saben cómo enmascarar las malas noticias para que nos les afecte a la credibilidad y solvencia de las empresas que dirigen. 
+            </span>
+            <p class="fase-3-estudios-lin">
+              Los extractores automáticos de términos y marcadores discursivos funcionan con un nivel muy alto de acierto, empleando técnicas de aprendizaje automático supervisado. <br/><br/>A partir de la anotación manual por lingüistas de estas unidades, usamos redes neuronales profundas basadas en Transformers que nos dan unos resultados preliminares superiores al 90% de acierto. Esto nos ha permitido tener un prototipo de reconocimiento (similar a un NER) para el dominio financiero, que explotaremos en el siguiente proyecto.</font>
+            </p>
+          </div>
+        </div>
+      </div>
         <div class="section_publicaciones">
           <div class="overlap-group3">
             <div class="h1-6">

@@ -6,7 +6,6 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 6619px;
   overflow: hidden;
   width: 1440px;
 }
@@ -193,14 +192,47 @@
   margin-top: 45px;
 }
 
-.plantilla-proyecto .section_resultados {
+.plantilla-proyecto .centro {
+  text-align: center; /* Centra el contenido del elemento */
+}
+
+.plantilla-proyecto .section_fase_1 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 64px;
   margin-top: 180px;
-  min-height: 1866px;
   width: 1194px;
+  margin-bottom: 50px;
+}
+
+.plantilla-proyecto .section_fase_2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 50px;
+  width: 1194px;
+  margin-bottom: auto;
+}
+
+.plantilla-proyecto .section_fases_3_4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 70px;
+  width: 1194px;
+}
+
+.plantilla-proyecto .section_resultados {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 10px;
+  width: 1194px;
+  margin-bottom: 10px;
 }
 
 .plantilla-proyecto .h1-4 {
@@ -243,10 +275,17 @@
   width: 545px;
 }
 
+.plantilla-proyecto .sin-columnas {
+  color: var(--primary-color);
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -1.00px;
+  width: 1090px;
+}
+
 .plantilla-proyecto .section_publicaciones {
   align-items: flex-start;
   display: flex;
-  margin-top: 90px;
   min-width: 1440px;
 }
 
@@ -290,6 +329,24 @@
   top: 0;
   width: 1440px;
   margin-top: 160px;
+}
+
+.plantilla-proyecto .fondo_fases {
+  background-color: var(--navy-blue-3);
+  height: 600px;
+  position: relative;
+  width: 1250px;
+  margin-top: 0px;
+  padding: 10px 30px;
+}
+
+.plantilla-proyecto .fondo_resultados {
+  background-color:#1975ba;
+  height: 700px;
+  position: relative;
+  width: 1440px;
+  margin-top: 150px;
+  padding: 10px 130px;
 }
 
 .plantilla-proyecto .texto_publicaciones {
@@ -345,7 +402,7 @@
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
-  margin-left: 8.0px;
+  margin-left: 120px;
   margin-top: 49px;
   width: 1194px;
 }
@@ -373,7 +430,7 @@
   flex-direction: row;
   flex-shrink: 1;
   justify-content: flex-start;
-  margin-top: 377px;
+  margin-top: 200px;
   min-width: 1440px;
   width: auto;
 }
