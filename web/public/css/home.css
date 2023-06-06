@@ -153,7 +153,7 @@
 }
 
 .home .botn {
-  margin-left: 16.0px;
+  margin-left: 3.0px;
 }
 
 .home .texto_boton {
@@ -365,7 +365,17 @@
   display: flex;
   justify-content: space-between;
   padding: 16px 36px;
-  width: 234px;
+  width: 370px;
+}
+
+.home .botn-3 {
+  align-items: center;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 36px;
+  width: 410px;
 }
 
 .home .ficha_recursos-2 {
