@@ -140,3 +140,8 @@
 .estado-publicaciones:hover {
   font-size:110%;
 }
+
+.estado-header:hover {
+  font-size:107%;
+  color: #cc5c16;
+}
